@@ -6,7 +6,7 @@ msgid "Frp Setting"
 msgstr "Frp 客户端"
 
 msgid "Frp Status"
-msgstr "Frp状态"
+msgstr "Frp 状态"
 
 msgid "The Frp service is not running."
 msgstr "Frp服务未运行"
