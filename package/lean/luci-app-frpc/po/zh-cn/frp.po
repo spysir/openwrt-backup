@@ -9,10 +9,10 @@ msgid "Frp Status"
 msgstr "Frp 状态"
 
 msgid "The Frp service is not running."
-msgstr "Frp服务未运行"
+msgstr "Frp 服务未运行"
 
 msgid "The Frp service is running."
-msgstr "Frp服务正在运行"
+msgstr "Frp 服务正在运行"
 
 msgid "Frp is a fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet."
 msgstr "Frp 是一个可用于内网穿透的高性能的反向代理应用。"
