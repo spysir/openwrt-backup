@@ -9,7 +9,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "MWAN3 Helper"
-msgstr "MWAN3 分流助手"
+msgstr "MWAN3 Helper"
 
 msgid "Settings"
 msgstr "设置"
