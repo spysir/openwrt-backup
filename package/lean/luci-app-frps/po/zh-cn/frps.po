@@ -86,7 +86,7 @@ msgstr "Frp 是一个可用于内网穿透的高性能的反向代理应用。"
 #: luasrc/controller/frps.lua:16 luasrc/model/cbi/frps/common.lua:30
 #: luasrc/model/cbi/frps/server.lua:8
 msgid "Frps"
-msgstr "Frps"
+msgstr "Frp 服务端"
 
 #: luasrc/model/cbi/frps/common.lua:43
 msgid "General Options"
