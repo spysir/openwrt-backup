@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=netifd
-PKG_RELEASE:=2
+PKG_RELEASE:=3
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL=$(PROJECT_GIT)/project/netifd.git
-PKG_SOURCE_DATE:=2021-03-31
-PKG_SOURCE_VERSION:=c84f3b02fced9dd6752a90ca466ada0aabb38224
-PKG_MIRROR_HASH:=d50f1a7983e1e7c0cddfa0642778dfc58a8e62a36f58211928c293d74bd0883b
+PKG_SOURCE_DATE:=2021-04-03
+PKG_SOURCE_VERSION:=327da9895327bc56b23413ee91a6e6b6e0e4329d
+PKG_MIRROR_HASH:=b6b005686aeb45948299113c71f6b806ece794db361594b23e03953c9c830af6
 PKG_MAINTAINER:=Felix Fietkau <nbd@nbd.name>
 
 PKG_LICENSE:=GPL-2.0
@@ -27,6 +27,7 @@ endef
 
 define Package/netifd/conffiles
 /etc/udhcpc.user
+/etc/udhcpc.user.d/
 endef
 
 TARGET_CFLAGS += \
@@ -44,6 +45,7 @@ define Package/netifd/install
 	$(INSTALL_DIR) $(1)/sbin
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/netifd $(1)/sbin/
 	$(CP) ./files/* $(1)/
+	$(INSTALL_DIR) $(1)/etc/udhcpc.user.d/
 	$(CP) $(PKG_BUILD_DIR)/scripts/* $(1)/lib/netifd/
 endef
 
