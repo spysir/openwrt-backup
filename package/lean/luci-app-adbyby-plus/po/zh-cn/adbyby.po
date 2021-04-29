@@ -12,22 +12,22 @@ msgstr ""
 "X-Generator: Poedit 2.3.1\n"
 
 msgid "ADBYBY Plus +"
-msgstr "Adbyby Plus+"
+msgstr "Adbyby Plus"
 
 msgid "<strong><font color=\"green\">Adbyby Plus + is Running</font></strong>"
-msgstr "<strong><font color=\"green\">Adbyby Plus + 正在运行</font></strong>"
+msgstr "<strong><font color=\"green\">Adbyby Plus 正在运行</font></strong>"
 
 msgid "<strong><font color=\"red\">Adbyby Plus + is Not Running</font></strong>"
-msgstr "<strong><font color=\"red\">Adbyby Plus + 没有运行</font></strong>"
+msgstr "<strong><font color=\"red\">Adbyby Plus 没有运行</font></strong>"
 
 msgid "Adbyby Plus + can filter all kinds of banners, popups, video ads, and prevent tracking, privacy theft and a variety of malicious websites<br /><font color=\"red\">Plus + version combination mode can operation with Adblock Plus Host,filtering ads without losing bandwidth</font>"
-msgstr "Adbyby Plus + 可以全面过滤各种横幅、弹窗、视频广告，同时阻止跟踪、隐私窃取及各种恶意网站<br /><font color=\"red\">Plus + 版本可以和 Adblock Plus Host 结合方式运行，过滤广告不损失带宽</font>"
+msgstr "Adbyby Plus 可以全面过滤各种横幅、弹窗、视频广告，同时阻止跟踪、隐私窃取及各种恶意网站<br /><font color=\"red\">Plus + 版本可以和 Adblock Plus Host 结合方式运行，过滤广告不损失带宽</font>"
 
 msgid "Adbyby Plus +"
-msgstr "Adbyby Plus+"
+msgstr "Adbyby Plus"
 
 msgid "Adbyby Plus + Settings"
-msgstr "Adbyby Plus+（支持  AdGuardHome /Host / DNSMASQ 规则）"
+msgstr "Adbyby Plus（支持  AdGuardHome /Host / DNSMASQ 规则）"
 
 msgid "Base Setting"
 msgstr "基本设置"
@@ -39,7 +39,7 @@ msgid "Global Mode (The slowest and the best effects)"
 msgstr "全局模式（最慢, 效果最好）"
 
 msgid "Plus + Mode (Filter domain name list and blacklist website.Recommended)"
-msgstr "Plus + 模式（只过滤列表内域名结合ABP名单。推荐！）"
+msgstr "Plus 模式（只过滤列表内域名结合ABP名单。推荐！）"
 
 msgid "No filter Mode (Must set in Client Filter Mode Settings manually)"
 msgstr "手动代理模式（必须手动设置浏览器代理，或者客户端过滤模式设置）"
@@ -60,7 +60,7 @@ msgid "Restart Adbyby"
 msgstr "重启Adbyby"
 
 msgid "Plus+ Domain List"
-msgstr "Plus+ 模式过滤的域名"
+msgstr "Plus 模式过滤的域名"
 
 msgid "Bypass Domain List"
 msgstr "域名白名单"
